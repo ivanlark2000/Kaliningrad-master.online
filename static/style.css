@@ -1,0 +1,35 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: #E84930;
+  border: 1px solid #E84930;
+}
+
+hr.line {
+  border: 3px solid #FFFFFF;
+}
+
+header div.container-fluid.header h2 {
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  border: 1px solid #E84930;
+}
+header div.container-fluid.header p {
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
