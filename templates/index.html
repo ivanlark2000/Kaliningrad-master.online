@@ -4,5 +4,39 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Главная часть контента</h1>
+<div class="row">
+    <h1>Ремонт бытовой техники</h1>
+</div>
+<div class="row elips">
+    <img src="{{ url_for('static', filename='png/elips.png') }}" alt="иконка">
+    <h4>MASTER ONLINE</h4>
+</div>
+<div class="row device1">
+    <div class="col-4">
+        <img class="device" src="{{ url_for('static', filename='png/main1.png') }}" alt="иконка">
+        <h5>СТИРАЛЬНЫЕ МАШИНЫ</h5>
+    </div>
+    <div class="col-4">
+        <img class="device" src="{{ url_for('static', filename='png/main2.png') }}" alt="иконка">
+        <h5>ХОЛОДИЛЬНИКИ</h5>
+    </div>
+    <div class="col-4">
+        <img class="device"  src="{{ url_for('static', filename='png/main3.png') }}" alt="иконка">
+        <h5>ДУХОВЫЕ ШКАФЫ</h5>
+    </div>
+</div>
+<div class="row device2">
+    <div class="col-4">
+        <img class="device"  src="{{ url_for('static', filename='png/main4.png') }}" alt="иконка">
+        <h5>СУШИЛЬНЫЕ МАШИНЫ</h5>
+    </div>
+    <div class="col-4">
+        <img class="device"  src="{{ url_for('static', filename='png/main5.png') }}" alt="иконка">
+        <h5>ВАРОЧНЫЕ ПОВЕРХНОСТИ</h5>
+    </div>
+    <div class="col-4">
+        <img class="device"  src="{{ url_for('static', filename='png/main6.png') }}" alt="иконка">
+        <h5>ПОСУДОМОЕЧНЫЕ МАШИНЫ</h5>
+    </div>
+</div>
 {% endblock %}
