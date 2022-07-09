@@ -1,10 +1,27 @@
 <footer>
     <hr class="line">
-    <div class="row d-flex justify-content-between">
-        <div class="col-2 city">
+    <div class="rob d-flex justify-content-center">
+        <div class="col-3 city">
             <p>Калининград 2022</p>
         </div>
-        <div class="col-2 number">
+        <div class="col-4 center d-flex justify-content-between">
+                <div class="col-3 logo">
+                    <img class="logoPart" src="{{ url_for('static', filename='png/Ellipse(2).png') }}" alt="иконка">
+                    <img class="logoYandex" src="{{ url_for('static', filename='png/yandex.png') }}" alt="иконка">
+                </div>
+                <div class="col-3 logo">
+                    <img class="logoPart" src="{{ url_for('static', filename='png/Ellipse(2).png') }}" alt="иконка">
+                    <img class="logoMail" src="{{ url_for('static', filename='png/mail.png') }}" alt="иконка">
+                </div>
+                <div class="col-3 logo">
+                    <img class="logoPart" src="{{ url_for('static', filename='png/Ellipse(2).png') }}" alt="иконка">
+                    <img class="logoVk" src="{{ url_for('static', filename='png/Vector@2x.png') }}" alt="иконка">
+                </div>
+                <div class="col-2">
+                    <img class="logoPart" src="{{ url_for('static', filename='png/phone.png') }}" alt="иконка">
+                </div>
+        </div>
+        <div class="col-3 number">
             <img src="{{ url_for('static', filename='png/phone.png') }}" alt="иконка">
             <p><b>8 (4012) 708-707</b></p>
         </div>
