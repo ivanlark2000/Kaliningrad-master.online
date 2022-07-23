@@ -12,6 +12,30 @@ def index():
     return render_template('index.html', context=context)
 
 
+@application.route('/about')
+def about():
+    context = {
+        "title": "О нас",
+    }
+    return render_template('test.html', context=context)
+
+
+@application.route('/price')
+def price():
+    context = {
+        "title": "Цены",
+    }
+    return render_template('test.html', context=context)
+
+
+@application.route('/numbers')
+def numbers():
+    context = {
+        "title": "Цены",
+    }
+    return render_template('test.html', context=context)
+
+
 @application.route('/test')
 def test():
     context = {
@@ -25,7 +49,7 @@ def fridge():
     context = {
         "title": "Холодильники",
     }
-    return render_template('test.html', context=context)
+    return render_template('fridge.html', context=context)
 
 
 @application.route('/washing')

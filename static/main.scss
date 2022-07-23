@@ -21,6 +21,7 @@ header {
     div.container-fluid.header {
         height: 120px;
         div.master {
+            width: 350px;
             padding-top: 35px;
             h2 {
                 width: 300px;
@@ -51,59 +52,20 @@ header {
             padding-top: 25px;
             div.prof {
                 img {
-                    width: 280px;
-                    height: 80px;
-                }
-                p {
-                    text-align: center;
-                    position: relative;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 28px;
-                    text-align: center;
-                    left: -12px;
-                    bottom: 70px;
-                    color: #E84930;
+                    width: 90px;
+                    height: 90px;
                 }
             }
             div.howwork {
                 img {
-                    width: 150px;
-                    height: 80px;
-                    }
-                p {
-                    text-align: center;
-                    position: relative;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 28px;
-                    text-align: center;
-                    left: 4px;
-                    bottom: 70px;
-                    color: #E84930;
+                    width: 111px;
+                    height: 111px;
                 }
             }
             div.about {
                 img {
-                    width: 150px;
-                    height: 80px;
-                    }
-                p {
-                    text-align: center;
-                    position: relative;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 28px;
-                    text-align: center;
-                    left: 4px;
-                    bottom: 54px;
-                    color: #E84930;
+                    width: 90px;
+                    height: 90px;
                 }
             }
         }
@@ -153,6 +115,26 @@ header {
 }
 div.container.main_content {
     height: 770px;
+    div.row {
+        padding-bottom: 30px;
+        div.col-12 {
+            h3 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            weight: 500px;
+            text-align: center;
+            padding-top: 30px;
+            color: #FFFFFF;
+            }
+        p img.device {
+            float: left;
+            width: 200%;
+            height: 200%;
+            }
+        }
+    }
     div.row  {
         &.device1 {
             div.col {

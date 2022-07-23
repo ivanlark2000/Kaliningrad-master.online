@@ -22,6 +22,7 @@ header div.container-fluid.header {
   height: 120px;
 }
 header div.container-fluid.header div.master {
+  width: 350px;
   padding-top: 35px;
 }
 header div.container-fluid.header div.master h2 {
@@ -52,55 +53,16 @@ header div.container-fluid.header div.nav {
   padding-top: 25px;
 }
 header div.container-fluid.header div.nav div.prof img {
-  width: 280px;
-  height: 80px;
-}
-header div.container-fluid.header div.nav div.prof p {
-  text-align: center;
-  position: relative;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  left: -12px;
-  bottom: 70px;
-  color: #E84930;
+  width: 90px;
+  height: 90px;
 }
 header div.container-fluid.header div.nav div.howwork img {
-  width: 150px;
-  height: 80px;
-}
-header div.container-fluid.header div.nav div.howwork p {
-  text-align: center;
-  position: relative;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  left: 4px;
-  bottom: 70px;
-  color: #E84930;
+  width: 111px;
+  height: 111px;
 }
 header div.container-fluid.header div.nav div.about img {
-  width: 150px;
-  height: 80px;
-}
-header div.container-fluid.header div.nav div.about p {
-  text-align: center;
-  position: relative;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  left: 4px;
-  bottom: 54px;
-  color: #E84930;
+  width: 90px;
+  height: 90px;
 }
 header div.container-fluid.header img.logoPart {
   display: block;
@@ -146,6 +108,24 @@ header div.container-fluid.header div.right div.logo img.logoPart2 {
 
 div.container.main_content {
   height: 770px;
+}
+div.container.main_content div.row {
+  padding-bottom: 30px;
+}
+div.container.main_content div.row div.col-12 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  weight: 500px;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+div.container.main_content div.row div.col-12 p img.device {
+  float: left;
+  width: 200%;
+  height: 200%;
 }
 div.container.main_content div.row.device1 div.col {
   padding: 10px;

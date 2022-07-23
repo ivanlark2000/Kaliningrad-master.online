@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+    {{ context.title }}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h3 align="center">СТИРАЛЬНЫЕ МАШИНЫ</h3>
+    </div>
+</div>
+<div class="row">
+     <p><img class="device" src="{{ url_for('static', filename='png/main1.png') }}" alt="иконка">
+        </p>
+</div>
+{% endblock %}
